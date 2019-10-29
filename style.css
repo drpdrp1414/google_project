@@ -3,7 +3,7 @@ body
     font-size: 13px;
     font-family: arial,sans-serif;
     color: #222;
-    opacity: .75;
+    
 }
 
 .header-box
@@ -12,6 +12,7 @@ body
     height: 25px;
     width: 100%;
     display: inline-flex;
+    opacity: .75;
 }
 
 .header-box div a
@@ -73,7 +74,40 @@ body
 
 #google_logo
 {
-    text-align: center;
     padding-top: 109px;
 
+}
+
+.main
+{
+    margin: auto;
+    text-align: center;
+
+}
+
+.searchbox
+{
+    border: 1px solid #dfe1e5;
+    
+}
+
+button
+{
+    border: 1px solid white;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 15px;
+    background-color: white;
+    font-size: 14px;
+    opacity: .75;
+    border-radius: 5px;
+    
+}
+
+button:hover
+{
+    cursor: pointer;
+    border: 1px solid grey;
 }
