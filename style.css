@@ -3,6 +3,7 @@ body
     font-size: 13px;
     font-family: arial,sans-serif;
     color: #222;
+    opacity: .75;
 }
 
 .header-box
@@ -68,4 +69,11 @@ body
 #name_icon
 {
     border-radius: 50%;
+}
+
+#google_logo
+{
+    text-align: center;
+    padding-top: 109px;
+
 }
